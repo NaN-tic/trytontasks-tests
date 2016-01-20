@@ -53,7 +53,7 @@ def test(dbtype='sqlite', module=None):
 
 @task
 def pyflakes(module=None):
-    'Run Tryton test module/s'
+    'Run pyflakes in module/s'
     Modules = read_config_file()
 
     # remove base (trytond, tryton, proteus...)
